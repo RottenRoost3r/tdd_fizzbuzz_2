@@ -14,4 +14,9 @@ class TesTtddFizzBuzz2 < Minitest::Test
     def test_assert_that_first_is_1
     	assert_equal(1, fizzbuzz().first)
     end
+
+    def test_assert_that_50th_is_50
+    	assert_equal(50, fizzbuzz()[49])
+    end
+    
 end
