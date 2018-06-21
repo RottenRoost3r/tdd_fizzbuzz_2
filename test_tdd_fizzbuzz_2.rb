@@ -11,4 +11,7 @@ class TesTtddFizzBuzz2 < Minitest::Test
     	assert_equal(Array, fizzbuzz().class)
     end
 
+    def test_assert_that_first_is_1
+    	assert_equal(1, fizzbuzz().first)
+    end
 end
