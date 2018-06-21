@@ -11,7 +11,9 @@ def fizzbuzz()
 			fizzarr.insert(indx, val)
 			fizzarr.delete(indx)
 			val = indx
+		
 		end
+
 
 		if val == 100
 			break

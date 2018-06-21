@@ -23,4 +23,8 @@ class TesTtddFizzBuzz2 < Minitest::Test
     	assert_equal("mined", fizzbuzz()[2])
     	assert_equal("mined", fizzbuzz()[32])
     end
+
+    def test_assert_that_fifth_number_is_minds
+    	assert_equal("minds", fizzbuzz()[4])
+    end
 end
