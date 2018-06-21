@@ -2,13 +2,12 @@ def fizzbuzz()
 	fizzarr = []
 	val = 0
 
-loop do
+	loop do
 		val += 1
 		fizzarr << val
-	
-	if val == 100
-		break
+			if val == 100
+				break
+			end
 	end
-end
-	fizzarr
+		fizzarr
 end
