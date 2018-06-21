@@ -16,7 +16,7 @@ class TesTtddFizzBuzz2 < Minitest::Test
     end
 
     def test_assert_that_50th_is_50
-    	assert_equal(50, fizzbuzz()[49])
+    	assert_equal(31, fizzbuzz()[30])
     end
 
     def test_assert_that_third_number_is_mined
