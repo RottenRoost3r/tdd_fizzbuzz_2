@@ -24,6 +24,5 @@ def fizzbuzz()
 			break
 		end
 	end
-	p fizzarr
+	fizzarr
 end
-fizzbuzz()
