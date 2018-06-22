@@ -5,7 +5,13 @@ def fizzbuzz()
 	loop do
 		val += 1
 		fizzarr << val
-		if fizzarr[val - 1] %3 == 0
+		if fizzarr[val -1] %15 == 0
+			indx = val
+			val = "mined minds"
+			fizzarr.insert(indx, val)
+			fizzarr.delete(indx)
+			val = indx
+		elsif fizzarr[val - 1] %3 == 0
 			indx = val
 			val = "mined"
 			fizzarr.insert(indx, val)
