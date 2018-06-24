@@ -2,33 +2,17 @@ def fizzbuzz()
 	fizzarr = []
 	val = 0
 
-	loop do
+	while val <= 100 do
 		val += 1
 		fizzarr << val
 		if fizzarr[val -1] %15 == 0
-			indx = val
-			val = "mined minds"
-			fizzarr.insert(indx, val)
-			fizzarr.delete(indx)
-			val = indx
-		elsif fizzarr[val - 1] %3 == 0
-			indx = val
-			val = "mined"
-			fizzarr.insert(indx, val)
-			fizzarr.delete(indx)
-			val = indx
-		elsif fizzarr[val - 1] %5 == 0
-			gumby = val
-			val = "minds"
-			fizzarr.insert(gumby, val)
-			fizzarr.delete(gumby)
-			val = gumby
-		end
-
-
-		if val == 100
-			break
+			fizzarr[val-1] = "mined minds"
+		elsif fizzarr[val-1] %3 == 0
+			fizzarr[val-1] = "mined"
+		elsif fizzarr[val-1] %5 == 0
+			fizzarr[val-1] = "minds"
 		end
 	end
 	fizzarr
+		
 end
